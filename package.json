@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
 
-    "postinstall" : "npx jetify"
+    "postinstall" : "cd android && ./gradlew clean"
   },
   "dependencies": {
     "react": "18.2.0",
